@@ -8,7 +8,11 @@ It utilizes a clean architecture approach to ensure modularity, maintainability,
 - PHP >= 8.2
 - Composer
 - Laravel 11.x
-- MySql
+- MySql 8.x
+- Vue.js 3.5.x
+- Pinia 2.2.x
+- Axios 1.7.x
+- Vite 5.x
 
 ## Running the Application
 
@@ -29,6 +33,7 @@ It utilizes a clean architecture approach to ensure modularity, maintainability,
    ```bash
    composer install
    npm install
+   npm run build
    php artisan key:generate
    php artisan key:generate --env=testing
    ```
